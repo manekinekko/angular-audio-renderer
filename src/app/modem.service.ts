@@ -1,5 +1,9 @@
 import { Injectable, Inject } from '@angular/core';
 
+/**
+ * a minimal implementation copied on https://github.com/pablogs9/minimodem.js/blob/master/minimodem.js
+ */
+
 @Injectable()
 export class ModemService {
 	//Audio playing or audio listening flag
